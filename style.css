@@ -1,0 +1,411 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto+Slab:wght@500&family=Trispace&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab';
+}
+
+body{
+    background: #080808;
+    color: whitesmoke;
+}
+
+#header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(background-image.jpg);
+    background-size: cover;
+    background-position: center
+}
+
+.storage{
+    padding:0px;
+}
+
+nav{
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap; 
+    margin: 0 2px
+}
+
+.logo{
+    width: 200px;
+    margin-right: 125px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: beige;
+    font-size:18.5px;
+    margin: 0 60px;
+    text-shadow: 2px 2px 3px BLACK;
+}
+#home{
+    color:aquamarine;
+}
+#contacts{
+    margin-right: 80px;
+}
+.my_message{
+    padding-left: 5%;
+    padding-top: 7%;
+    text-shadow: 1px 1px 1px BLACK;
+}
+#duo1{
+    margin:5px 10px
+}
+#duo2{
+    margin:8px 50px;
+    color: #447BBE;
+}
+#duo1{
+    color : #E54C57;
+}
+.my_message h2 span, p b{
+    color: ghostwhite;
+}
+.spider1 svg{
+    height: 70px;
+    width: 60px;
+    fill:red;
+    position:absolute;
+    top:50px;
+    left:475px;
+}
+.spider2 svg{
+    height: 70px;
+    width: 60px;
+    fill:#447BBE;
+    position:absolute;
+    top:50px;
+    left:650px;
+    transform: rotate(180deg);
+}
+.spider3 svg{
+    height: 70px;
+    width: 60px;
+    fill:red;
+    position:absolute;
+    top:50px;
+    left:850px;
+    
+}
+.web1{
+    position: absolute;
+    top:-313px;
+    left:133px;
+    transform: rotate(33deg);  
+}
+.web2{
+    position:absolute;
+    top:-520px;
+    left: 263px;
+    transform: rotate(45deg);  
+}
+.web3{
+    position: absolute;
+    bottom:1305px;
+    left: 314px;
+    transform: rotate(45deg);  
+}
+footer{
+    border:0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+#venom{
+    position: absolute;
+    bottom:-190px;
+    left: 170px;
+    height: 190px;
+    width: 650px;
+}
+.layer1 {
+    margin: 0;
+}
+.layer2 svg{
+    transform: rotate(180deg);
+    margin: 0;
+}
+.icons i{
+    margin: 0 20px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+.icons {
+    font-size:20px;
+    position: absolute;
+    bottom:-160px;
+    left: 310px;
+    margin:0 100px;
+    display: flex;    
+}
+#credits{
+    font-size: 15px;
+    color: whitesmoke;
+    position: absolute;
+    bottom:-25px;
+    left: 50px;
+    text-shadow: 1px 1px 1px aqua;
+}
+#creditsto{
+    color: whitesmoke;
+    position: absolute;
+    bottom:-43px;
+    left: 90px;
+    font-size: 13px;
+    text-shadow: 1px 1px 1px aqua;
+}
+#creditsto1{
+    color: whitesmoke;
+    position: absolute;
+    bottom:-60px;
+    left: 106px;
+    font-size: 13px;
+    text-shadow: 1px 1px 1px aqua;
+}
+#creditsto2{
+    color: whitesmoke;
+    position: absolute;
+    bottom:-77px;
+    left: 122px;
+    font-size: 13px;
+    text-shadow: 1px 1px 1px aqua;
+}
+#copyright{
+    font-size: 12px;
+    left: 100px
+    display: flex
+    color: whitesmoke;
+    position: relative;
+    bottom:-45px;
+    left: -240px;
+}
+#text{
+    font-size: 16px;
+    position: absolute;
+    bottom:-20px;
+    left: 420px;
+}
+#line{
+    width: 30%;
+    position: relative;
+    bottom:50px;
+    left:345px;
+}
+/*#line1{
+    display: flex;
+    width: 100%;
+    position: absolute;
+    bottom:-20px;
+    left:-140px;
+}*/
+/*menu tab*/
+.menu-elements svg{
+    background-color: cornflowerblue;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.clickable-menu{
+    position: absolute;
+    right:10px;
+    top: 40px;
+    color: whitesmoke;
+    text-shadow: 2px 2px 3px #FF0000;
+}
+.clickable-menu h2 {
+    margin-bottom: 80px
+} 
+.clickable-menu a{
+    text-decoration: none;
+}
+.clickable-menu p{
+    margin-left: 25px;
+    margin-bottom: 80px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+#button{
+    position: absolute;
+    top:580px;
+    right: -1px
+}
+/*about tab*/
+.about_me{
+    padding: 1%;
+}
+#m{
+    margin-left: 25px;
+    margin-bottom:8px;
+    margin-top: 5px;
+}
+#me{
+    margin-left: 50px;
+}
+.more ul{
+    list-style-type: circle;
+    margin-left: 70px;
+}
+table{
+    color:black;
+    text-align: center;
+    margin-left: 100px;
+}
+.contact_me{
+    padding: 1%
+}
+.contact_me h3{
+    margin-left: 50px;
+}
+.contact_me ul{
+    margin-left: 70px;
+    list-style-type: none
+}
+.contact_me ul li a{
+    text-decoration: line-through;
+    color: dodgerblue;
+}
+.survey_elements svg{
+    background-color: azure;
+    position: absolute;
+    top: 10px;
+    left: 200px;
+}
+.survey_elements h1{
+    position: absolute;
+    top: 8px;
+    left: 205px;
+    color: black;
+}
+.survey_elements h3{
+    position: absolute;
+    top: 55px;
+    left: 220px;
+    color: black;
+}
+.survey_elements form{
+    position: absolute;
+    top: 130px;
+    left: 250px;
+    color: black;
+}
+.sel1, .sel2, .sel3, .sel4{
+    position: absolute;
+    left: 45px;
+}
+.question1{
+    position: absolute;
+    top: 120px; 
+}
+.question2{
+    position: absolute;
+    top: 220px; 
+}
+.question3{
+    position: absolute;
+    top: 410px;
+}
+#butt2{
+    position: absolute;
+    top: 0px;
+    left 100px;
+}
+#submit{
+    position: absolute;
+    top: 490px;
+    right: -250px;
+}
+.feedback_elements svg{
+    background-color: #1E3163;
+    position: absolute;
+    top: 10px;
+    left: 200px;
+}
+#feed{
+    position: absolute;
+    top: 75px;
+    left: 280px;
+    color: whitesmoke;
+    text-shadow: 0 0 4px black, 0 0 8px white, 0 0 15px white, 0 0 20px white, 0 0 50px #FF0000, 0 0 85px #FF0000, 0 0 100px #FF0000;
+}
+#feed1{
+    position: absolute;
+    top: 100px;
+    left: 500px;
+    color: whitesmoke;
+    text-shadow: 0 0 4px black, 0 0 8px white, 0 0 15px white, 0 0 20px white, 0 0 50px #FF0000, 0 0 85px #FF0000, 0 0 100px #FF0000;
+}
+#clientexp{
+    height:80px;
+    position: absolute;
+    top: 280px; 
+    left: 300px;
+}
+#feed2{
+    position: absolute;
+    top: 150px;
+    left: 420px;
+    text-shadow: 0 0 4px black, 0 0 8px white, 0 0 15px white, 0 0 20px white, 0 0 50px #FF0000, 0 0 85px #FF0000, 0 0 100px #FF0000;
+}
+.rates #ratebox{
+    display: flex;
+    position: absolute;
+    top: 200px;
+    left: 260px;
+}
+#rate{
+    margin-right: 10px;
+    width: 100px
+}
+#rate1{
+    margin-right: 10px;
+    width: 100px
+}
+#rate2{
+    margin-right: 10px;
+    width: 100px
+}
+#rate3{
+    margin-right: 10px;
+    width: 100px
+}
+#rate4{
+    margin-right: 10px;
+    width: 100px
+}
+.rates #drate{
+    display: flex;
+    position: absolute;
+    top: 230px;
+    left:290px;
+    font-size: 13px;
+    color: whitesmoke;
+    text-shadow: 0 0 4px black, 0 0 8px white, 0 0 15px white, 0 0 20px white, 0 0 50px #FF0000, 0 0 85px #FF0000, 0 0 100px #FF0000;
+}
+#drate1{
+    margin-right:30px;
+}
+#drate2{
+    margin-right:78px;
+}
+#drate3{
+    margin-right:78px;
+}
+#drate4{
+    margin-right:58px;
+}
+#butt2{
+    position: absolute;
+    top:450px;
+    left: 780px;
+}
